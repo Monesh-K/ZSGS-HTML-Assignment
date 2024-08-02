@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  background-color: aqua;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.btn-container {
+  display: flex;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 90vh;
+}
+
+button {
+  width: 80px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+#timer {
+  font-size: 40px;
+}
+
+#lap {
+  display: none;
+}
+
+#laps {
+  overflow-y: auto;
+}

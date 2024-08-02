@@ -1,0 +1,122 @@
+* {
+    margin: 5px 0px 0px 0px;
+}
+
+#hr {
+    height: 10px;
+    background-color: black;
+    border: 0;
+    margin-bottom: 0;
+}
+
+.container {
+    width: 60%;
+    margin: 0px 20% 0px 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 70px;
+    height: 50px;
+    padding-left: 10px;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    padding: 0px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: large;
+}
+
+.offer img {
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+#card1,
+#card2,
+#card3 {
+    margin-top: 10px;
+    width: 50%;
+    height: 180px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: contain;
+    opacity: 80%;
+}
+
+#card1 {
+    background-image: url("./bag.jpg");
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#card2 {
+    background-image: url("./shoe.jpg");
+    margin-right: 10px;
+
+}
+
+#card3 {
+    background-image: url("./watch.jpg");
+
+    margin-right: 10px;
+}
+
+
+.card4 {
+    color: aliceblue;
+    padding-top: 25%;
+    opacity: 100%;
+    text-shadow: 1px 1px 1px black;
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.releases {
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 30px;
+    background-color: orange;
+    color: white;
+    border-radius: 15px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.content {
+    /* background-color: blue; */
+    width: 60%;
+    float: left;
+    padding-top: 4%;
+}
+
+.sale {
+    width: 37%;
+    float: right;
+    height: 300px;
+    padding-bottom: 10px;
+}
+
+footer {
+    margin-top: 30px;
+    clear: both;
+    background-color: black;
+    color: white;
+    text-align: center;
+}

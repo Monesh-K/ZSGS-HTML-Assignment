@@ -1,0 +1,114 @@
+body {
+  margin: 0%;
+  background-image: url("food1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  position: sticky;
+  height: 70px;
+  top: 0;
+  background-color: azure;
+  /* opacity: .9; */
+  /* background-color: rgb(212, 225, 234); */
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px 0px 20px;
+  z-index: 1000;
+}
+
+header h1 {
+  font-size: 32px;
+}
+.nav {
+  display: flex;
+  gap: 100px;
+}
+
+nav a {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  color: orange;
+}
+
+.logo {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.container1{
+    margin: 10% 0 0 5%;
+    padding: 30px;
+    background-color: azure;
+    opacity: 0.85;
+    width: 40%;
+    height: 230px;
+    border-radius: 25px;
+}
+
+.book{
+    background-color: orange;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    width: 150px;
+    border-color: orange;
+    border: none;
+    border-radius: 30px;
+}
+
+.book:hover{
+    border: 1px solid;
+    border-color: black;
+    cursor: pointer;
+}
+
+.menu, .location{
+    margin-top: 8%;
+    /* display: inline-block; */
+    align-items: center;
+    text-align: center;
+    background-color: aliceblue;
+    opacity: 0.85;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    /* width: 50%; */
+}
+
+table{
+    width: 100%;
+    font-size: large;
+}
+
+h2{
+    margin: 0;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    padding-left:20px;
+}
+
+.location{
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+}
